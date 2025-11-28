@@ -1,0 +1,276 @@
+=== ROTEIRO DE CONTEÚDO: SITE NA BRASA BURGER ===
+Tom de Voz: Rústico, direto, apetitoso. "Churrasco de verdade".
+
+---------------------------------------------------------------------------------------
+PÁGINA 1: INÍCIO (index.html)
+=== ROTEIRO DE CONTEÚDO: PÁGINA INICIAL (HOME) ===
+Cliente: Na Brasa Burger (Beto)
+Arquivo: index.html
+
+BARRA DE NAVEGAÇÃO (MENU SUPERIOR)
+Objetivo: Guiar o cliente para as outras páginas.
+
+[LINKS DO MENU]
+
+Início (Você está aqui)
+
+Cardápio & Pedidos (Link para pedido.html)
+
+Localização & Contato (Link para contato.html)
+
+HERO SECTION (A PRIMEIRA IMPRESSÃO)
+[!!! ATENÇÃO: LOCAL DO VÍDEO !!!]
+Instrução Técnica: É AQUI que você coloca o arquivo "video-brasa.mp4" (o de 5MB).
+Ele deve ficar como "Background Video" (Vídeo de Fundo), cobrindo a tela toda atrás do texto.
+Por que aqui? Porque é a primeira coisa que o cliente vê. O movimento do fogo prende a atenção na hora.
+
+[TÍTULO PRINCIPAL - H1]
+NA BRASA BURGER
+
+[SLOGAN - P]
+Carne de verdade. Fogo alto. Sabor inesquecível.
+(Aquele churrasco de domingo, agora dentro do pão).
+
+[BOTÃO DE AÇÃO PRINCIPAL - CTA]
+FAZER PEDIDO AGORA 🔥
+(Este botão deve ser grande e laranja, levando para a página de pedidos).
+
+[LINK SECUNDÁRIO]
+Ver localização e Horários
+
+SEÇÃO: O DIFERENCIAL (POR QUE NÓS?)
+Objetivo: Explicar por que o hambúrguer é bom (usar fundo preto sólido ou foto estática do fogo aqui).
+
+[TÍTULO - H2]
+NÃO É SÓ HAMBÚRGUER. É CHURRASCO.
+
+[TEXTO - P]
+Esqueça a chapa elétrica. Aqui na Na Brasa, a gente faz do jeito raiz.
+Nossa carne é moída diariamente (blend 100% bovino) e vai direto para a grelha de carvão em brasa.
+
+[LISTA DE DIFERENCIAIS - ÍCONES]
+
+🔥 Defumado Real: O sabor que só o carvão dá.
+
+🥩 Carne Fresca: Zero congelados. Moída no dia.
+
+🍺 Ambiente Rústico: Feito para quem gosta de comer bem.
+
+SEÇÃO: O QUE DIZEM OS CLIENTES (PROVA SOCIAL)
+Objetivo: Passar confiança para quem nunca pediu.
+
+[TÍTULO - H2]
+QUEM PROVA, NÃO LARGA.
+
+[DEPOIMENTO 1]
+"Melhor burger da cidade! O gosto de defumado na carne faz toda a diferença. Chegou quentinho."
+— Marcos S. (Cliente desde 2023)
+
+[DEPOIMENTO 2]
+"A maionese verde deles é criminosa de tão boa. O ponto da carne veio perfeito, vermelhinho no meio."
+— Ana Paula R.
+
+SEÇÃO: CHAMADA FINAL (ANTES DO RODAPÉ)
+Objetivo: Última chance de vender se a pessoa rolou até o fim.
+
+[TEXTO DE IMPACTO]
+Bateu a fome de verdade?
+A grelha já está quente esperando seu pedido.
+
+[BOTÃO SECUNDÁRIO]
+QUERO MEU BURGER 🍔
+
+RODAPÉ (FOOTER)
+Objetivo: Informações técnicas e SEO.
+
+[RESUMO]
+Na Brasa Burger - O Verdadeiro Churrasco.
+
+[LINKS RÁPIDOS]
+
+Cardápio
+
+Fale Conosco no WhatsApp
+
+Instagram (@nabrasaburger)
+
+[COPYRIGHT]
+© 2025 Na Brasa Burger. Feito com fogo e código.
+
+---------------------------------------------------------------------------------------------
+=== ROTEIRO DE CONTEÚDO: PÁGINA 2 (PEDIDO.HTML) ===
+Cliente: Na Brasa Burger
+Objetivo: Facilitar a escolha e aumentar o valor do pedido (vender adicionais).
+
+CABEÇALHO DA PÁGINA
+
+[TÍTULO PRINCIPAL - H2]
+MONTE SEU MONSTRO 🍔
+
+[SUBTÍTULO - P]
+Atenção: Imagens meramente ilustrativas. O sabor real é ainda melhor.
+Escolha com sabedoria. A fome não espera.
+
+O FORMULÁRIO DE PEDIDO
+
+[SEÇÃO 1: ESCOLHA DO LANCHE (SELECT)]
+Título (Legend): 1. Qual vai ser o burger?
+(Dica: Colocamos os ingredientes na descrição para o cliente saber o que vem)
+
+Opções do Menu:
+
+-- Selecione seu Burger --
+
+Costela Defumada (R$ 32,90) - [Costela desfiada, BBQ e Cebola Crispy]
+
+Picanha Premium (R$ 38,90) - [Hambúrguer de Picanha, Queijo Prato e Salada]
+
+Brasa Chicken (R$ 28,90) - [Peito de Frango Grelhado e Cream Cheese]
+
+Smash Duplo (R$ 25,00) - [2 Carnes fininhas, Cheddar duplo e Bacon]
+
+Veggie Grill (R$ 30,00) - [Burger de Grão de Bico e Cogumelos na Brasa]
+
+[SEÇÃO 2: PONTO DA CARNE (RADIO)]
+Título (Legend): 2. Ponto da Carne (Aqui a gente respeita)
+
+Opções:
+
+Mal Passada 🩸 (Vermelha e suculenta)
+
+Ao Ponto 👌 (Rosada e macia - Recomendação do Chef)
+
+Bem Passada 🔥 (Sem suco, bem grelhada)
+
+[SEÇÃO 3: ADICIONAIS (CHECKBOX)]
+Título (Legend): 3. Turbinar Lanche (Quanto mais, melhor)
+
+Opções:
+
+Bacon Crocante (+R$ 4,00)
+
+Queijo Coalho Tostado (+R$ 5,00)
+
+Maionese Verde da Casa (+R$ 2,00)
+
+Farofa de Bacon (+R$ 3,00)
+
+Ovo Frito com Gema Mole (+R$ 2,50)
+
+[NOVA SEÇÃO 4: BEBIDAS (CHECKBOX)]
+Título (Legend): 4. Para descer redondo
+
+Opções:
+
+Coca-Cola Lata 350ml (+R$ 6,00)
+
+Guaraná Antarctica Lata (+R$ 6,00)
+
+Suco de Laranja Natural 500ml (+R$ 10,00)
+
+Cerveja Heineken Long Neck (+R$ 12,00)
+
+[NOVA SEÇÃO 5: PAGAMENTO (SELECT)]
+Título (Legend): 5. Forma de Pagamento
+
+Opções:
+
+-- Selecione como vai pagar --
+
+PIX (Chave enviada no WhatsApp)
+
+Cartão de Crédito/Débito (Levamos a maquininha)
+
+Dinheiro (Preciso de troco)
+
+Dinheiro (Não preciso de troco)
+
+[SEÇÃO 6: DADOS DE ENTREGA]
+Título (Legend): 6. Onde entregamos?
+
+Campos:
+
+Seu Nome (Ex: Beto da Silva)
+
+WhatsApp (Obrigatório para confirmar o pedido)
+
+Endereço Completo (Rua, Número, Bairro e Ponto de Referência)
+
+Observações (Ex: "Tirar a cebola", "Campainha quebrada")
+
+[BOTÃO FINAL]
+Texto do Botão: ENVIAR PEDIDO E MATAR A FOME 🛵
+-----------------------------------------------------------------------------------------------------
+
+=== ROTEIRO DE CONTEÚDO: PÁGINA 3 (CONTATO.HTML) ===
+Cliente: Na Brasa Burger
+Objetivo: Tirar dúvidas, mostrar confiança e levar o cliente até a loja.
+
+CABEÇALHO DA PÁGINA
+
+[TÍTULO PRINCIPAL - H1]
+VENHA SENTIR O CHEIRO DE PERTO 🥩
+
+[SUBTÍTULO - P]
+Prefere retirar no balcão ou comer aqui com a gente?
+A grelha está quente esperando por você.
+
+INFORMAÇÕES DE LOCALIZAÇÃO E HORÁRIO
+
+[SEÇÃO DE ENDEREÇO]
+Título (H3): 📍 Onde a mágica acontece
+Texto:
+Rua das Brasas, 66 - Centro Gastronômico
+(Esquina com a Av. do Fogo, ao lado do Posto Ipiranga)
+Estacionamento gratuito no local.
+
+[SEÇÃO DE HORÁRIO]
+Título (H3): ⏰ Horário de Funcionamento
+Texto:
+Terça a Quinta: 18h às 23h00
+Sexta e Sábado: 18h às 00h30 (Madrugadão do Burger)
+Domingo: 18h às 23h00
+Segunda-feira: Fechado para descanso da equipe e reposição de carvão.
+
+CANAIS DE ATENDIMENTO
+
+[CONTATO DIRETO]
+Título (H3): 📞 Precisa falar com a gente?
+Texto:
+WhatsApp Pedidos: (11) 99999-9999
+Telefone Fixo: (11) 3333-3333
+Email (Parcerias/Eventos): contato@nabrasaburger.com.br
+
+[BOTÃO DE ZAP - CTA]
+Texto do Botão: INICIAR CONVERSA NO WHATSAPP 💬
+
+[REDES SOCIAIS]
+Título (H3): 🔥 Siga a fumaça
+Texto:
+Acompanhe os bastidores e promoções relâmpago:
+Instagram: @nabrasaburger
+TikTok: @nabrasaburgeroficial
+
+DÚVIDAS FREQUENTES (FAQ)
+(Essencial para evitar mensagens repetitivas)
+
+[PERGUNTA 1]
+Q: Aceitam Vale-Refeição (VR)?
+R: Sim! Aceitamos Alelo, Sodexo, VR e Ticket Restaurante (apenas no balcão e maquininha móvel).
+
+[PERGUNTA 2]
+Q: Fazem reservas para aniversário?
+R: Com certeza! Acima de 10 pessoas, o aniversariante ganha um Burger Clássico por nossa conta. Mande um Zap para reservar.
+
+[PERGUNTA 3]
+Q: A carne é fresca mesmo?
+R: 100%. Moemos nossa carne todo dia às 16h. Nada de hambúrguer congelado de caixinha aqui.
+
+MAPA (IFRAME)
+
+[INSTRUÇÃO TÉCNICA]
+Colocar o iframe do Google Maps ocupando a largura total (width: 100%) logo acima do rodapé.
+
+RODAPÉ (FOOTER)
+
+Texto: © 2025 Na Brasa Burger - Feito com fogo, paixão e código.
