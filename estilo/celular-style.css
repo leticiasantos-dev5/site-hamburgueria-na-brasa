@@ -4,6 +4,16 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
 @media screen and (max-width: 768px) {
 
+:root {
+    --corzinza : #2D322D;
+    --corvermelha: #B80007;
+    --cormostarda: #EF9B07;
+    --corverde: #AEA700;
+    --cormarrom: #B8580A;
+    --corbranca : #fff;
+
+}
+
     * {
         padding: 0px;
         margin: 0px;
