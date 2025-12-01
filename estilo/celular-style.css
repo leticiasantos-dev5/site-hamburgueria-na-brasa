@@ -4,32 +4,125 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
 @media screen and (max-width: 768px) {
 
-:root {
-    --corzinza : #2D322D;
-    --corvermelha: #B80007;
-    --cormostarda: #EF9B07;
-    --corverde: #AEA700;
-    --cormarrom: #B8580A;
-    --corbranca : #fff;
 
-}
+
+    /* Import das fontes do Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+    /* Variáveis CSS (Cores e Fontes) */
+
+
+    :root {
+        --corzinza: #2D322D;
+        --corvermelha: #B80007;
+        --cormostarda: #EF9B07;
+        --corverde: #AEA700;
+        --cormarrom: #B8580A;
+        --corbranca: #fff;
+
+        --fonte1: font-family: "Quicksand", sans-serif;
+
+    }
 
     * {
         padding: 0px;
         margin: 0px;
+        font-family: "Quicksand", sans-serif;
+        ;
     }
 
     header {
-        background-color: rgb(44, 255, 255);
+        background-color: var(--corvermelha);
+        display: flex;
+        /* Ativa o modo flexível */
+        flex-direction: row;
+        /* Coloca um ao lado do outro */
+        align-items: center;
+        /* Centraliza verticalmente (para o texto não ficar no topo) */
+        justify-content: flex-start;
+        /* Manda tudo para a ESQUERDA da tela */
+        gap: 15px;
+        /* Dá um espaço de 15px entre a logo e o texto */
+        padding: 10px;
+        color: var(--corbranca);
 
 
     }
+
+
+
+
     .logo img {
-        height: 15vh;
-        
-        
+        height: 75px;
+        /* Diminui um pouco para caber bem no celular */
+        width: auto;
+        margin: 0;
+        /* Largura automática para não distorcer */
+        /* REMOVIDO: display: flex e dis; (não precisa aqui) */
+
     }
 
+
+    .titulo-principal h1 {
+        font-size: 1.8em;
+        margin: 0;
+        padding: 10px;
+        text-align: left;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        
+
+    }
+
+    .frase-principal {
+        text-align: center;
+        padding: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
+    }
+
+    /* Estilo da caixa de navegação */
+    nav {
+        color: white;
+        background-color: var(--cormostarda);
+        padding: 5px;
+        text-align: justify;
+        /* Centraliza os botões */
+    }
+
+    /* Estilo dos LINKS (Botões) */
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        /* Tira o sublinhado */
+        font-size: 12px;
+        font-weight: bold;
+
+        /* AQUI ESTÁ O SEGREDO DO BOTÃO */
+        display: inline-block;
+        /* Necessário para dar tamanho ao botão */
+        padding: 10px 20px;
+        /* Espaço interno do botão */
+        margin: 5px;
+        /* Espaço entre um botão e outro */
+
+        /* A BORDA E O VISUAL */
+        border: 1px solid white;
+        /* Agora a borda aparece (Espessura, Tipo, Cor) */
+        border-radius: 10px;
+        /* Bordas arredondadas */
+        background-color: rgba(0, 0, 0, 0.1);
+        /* Fundo levemente escuro para destacar */
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Efeito visual quando clica (Active) em vez de Hover */
+    nav a:active {
+        background-color: var(--corvermelha);
+        border-color: var(--corvermelha);
+        transition: 0.5s;
+    }
 
 
 }
