@@ -121,7 +121,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     nav a:active {
         background-color: var(--corvermelha);
         border-color: var(--corvermelha);
-        transition: 0.5s;
+        transition: 0.7s;
     }
 
 
