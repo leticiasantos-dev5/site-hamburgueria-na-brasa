@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*TODAS AS DEMAIS MÍDIAS*/
+/*TYPICAL DEVIDER BREAKPOINTS
+---------------------------------------
+  (ATUALIZAÇÃO 2025)
+   PEQUENAS TELAS (CELULARES PEQUENOS): ATÉ 600PX
+   CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX
+   TABLET: DE 768PX ATÉ 992PX
+   DESKTOP: DE 992PX ATÉ 1200PX
+   GRANDES TELAS (MONITORES AMPLOS): ACIMA DE 1200PX
+
+*/
+
+/* DEIXA DE LADO ESSA CONFIGURAÇÃO PQ JÁ FOI FEITA NO MOBILE FIRST
+@media screen and (max-width: 600px) {
+    /*configuração para pequenas telas*/
+/*
+@media screen (min-width: 600px) and (max-width: 768px) {
+*/
+/*-----------------------------------------------------------------*/
+
+
+/*configuração para impressão*/
+@media print {
+    
+}
+
+
+/*configuração para tablet*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+}
+
+/*configuração para desktop*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+   
+    
+}
+
+
+/*configuração para telas grandes*/
+@media screen and (min-width: 1200px) {
+    
+}
