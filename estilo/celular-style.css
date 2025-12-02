@@ -47,6 +47,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         /* Dá um espaço de 15px entre a logo e o texto */
         padding: 10px;
         color: var(--corbranca);
+        padding-bottom: 1px;
 
 
     }
@@ -62,6 +63,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         display: flex;
         flex-direction: column;
         width: 100%;
+        
 
 
     }
@@ -88,7 +90,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     .titulo-principal h1 {
 
-        font-size: 1.8em;
+        font-size: 2.2em;
         margin: 0;
         padding: 10px;
         text-align: center;
@@ -96,6 +98,10 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
 
     }
+
+     /*area que tira alguns itens*/
+    #celular-frase-principal
+    {display: none;}
 
     .frase-principal {
         
