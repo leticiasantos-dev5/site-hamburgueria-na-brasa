@@ -58,12 +58,26 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     }
 
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
 
 
 
     .logo img {
         /* Define o tamanho desejado */
-        height: 75px;
+        height: 100px;
         width: auto;
       
         margin: 0;
@@ -71,11 +85,13 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     }
 
+    
     .titulo-principal h1 {
+        
         font-size: 1.8em;
         margin: 0;
         padding: 10px;
-        text-align: left;
+        text-align: center;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 
 
@@ -88,7 +104,18 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     }
 
-    /* Estilo da caixa de navegação */
+    .container2 {
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: ;
+    }
+
+    /* Estilo da caixa de navegação*/
     nav {
         color: white;
         background-color: var(--cormostarda);
@@ -129,6 +156,6 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         border-color: var(--corvermelha);
         transition: 0.7s;
     }
-
+ */
 
 }
