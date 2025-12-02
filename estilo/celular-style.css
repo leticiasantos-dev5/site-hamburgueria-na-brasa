@@ -112,7 +112,9 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: ;
+       align-content: space-around;
+       gap: 20px;
+       
     }
 
     /* Estilo da caixa de navegação*/
