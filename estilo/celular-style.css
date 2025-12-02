@@ -48,6 +48,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         padding: 10px;
         color: var(--corbranca);
         padding-bottom: 1px;
+        width: 100%;
 
 
     }
@@ -79,7 +80,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     .logo img {
         /* Define o tamanho desejado */
-        height: 100px;
+        height: 120px;
         width: auto;
 
         margin: 0;
@@ -151,38 +152,28 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         
     }
 
-    /* Estilo dos LINKS (Botões) */
-    nav a {
-        /*color: #fff;
-        text-decoration: none;
-        /* Tira o sublinhado */
-        /*font-size: 12px;
-        font-weight: bold;
-
-        /* AQUI ESTÁ O SEGREDO DO BOTÃO */
-        /*display: inline-block;
-        /* Necessário para dar tamanho ao botão */
-        /*padding: 10px 20px;
-        /* Espaço interno do botão */
-       /* margin: 5px;
-        /* Espaço entre um botão e outro */
-
-        /* A BORDA E O VISUAL */
-        /*border: 1px solid white;
-        /* Agora a borda aparece (Espessura, Tipo, Cor) */
-        /*border-radius: 10px;
-        /* Bordas arredondadas */
-        /*background-color: rgba(0, 0, 0, 0.1);
-        /* Fundo levemente escuro para destacar */
-        /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
-    }
-
-    /* Efeito visual quando clica (Active) em vez de Hover */
+    
     nav a:active {
         background-color: var(--corvermelha);
         border-color: var(--corvermelha);
         transition: 0.7s;
     }
 
-    */
+    .container3 {
+        width: 100%;
+    }
+
+    main{
+        background-color: #b8580a70;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: row;
+        background-color: #B80007;
+    }
+
+    .video 
+
+
 }
