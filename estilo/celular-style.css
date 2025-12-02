@@ -98,6 +98,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     }
 
     .frase-principal {
+        
         text-align: center;
         padding: 10px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
@@ -135,9 +136,12 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     nav {
         color: white;
         background-color: var(--cormostarda);
-        padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
         text-align: justify;
         /* Centraliza os botões */
+
         
     }
 
