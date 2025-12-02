@@ -51,19 +51,25 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     }
 
+    /* CONTAINER PAI EXTERNO */
+
+    .container1 {
+        width: 100%;
+
+    }
+
 
 
 
     .logo img {
+        /* Define o tamanho desejado */
         height: 75px;
-        /* Diminui um pouco para caber bem no celular */
         width: auto;
+      
         margin: 0;
-        /* Largura automática para não distorcer */
-        /* REMOVIDO: display: flex e dis; (não precisa aqui) */
+    
 
     }
-
 
     .titulo-principal h1 {
         font-size: 1.8em;
@@ -71,7 +77,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         padding: 10px;
         text-align: left;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-        
+
 
     }
 
