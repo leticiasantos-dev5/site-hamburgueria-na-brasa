@@ -9,6 +9,8 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     /* Import das fontes do Google Fonts */
     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+    @import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
+
 
 
     /* Variáveis CSS (Cores e Fontes) */
@@ -23,6 +25,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         --corbranca: #fff;
 
         --fonte1: font-family: "Quicksand", sans-serif;
+        --font2: font-family: "BBH Bogle", sans-serif;
 
     }
 
@@ -118,13 +121,41 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     }
 
     .container3 {
-        background-color: #00ffff;
+       
 
 
-        padding: 10px;
+        padding: 0px;
+        
+
         display: flex;
         flex-direction: column;
 
+
+    }
+
+    .container-titulo-diferencial{
+        
+        padding-top: 17px ;
+        padding-bottom: 15px;
+        font-size: 20px;
+       
+        
+        
+
+        display: flex;
+        flex: row wrap;
+        justify-content: space-evenly;
+
+    }
+
+   
+    .titulo-diferencial{
+        color: var(--cormarrom);
+        font-family: var(--font2);
+
+        
+        flex-grow: 0 ;
+        flex-shrink: 0;
 
     }
 
