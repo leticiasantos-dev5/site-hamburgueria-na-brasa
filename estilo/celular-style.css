@@ -24,18 +24,31 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         --cormarrom: #B8580A;
         --corbranca: #fff;
 
-        --fonte1: font-family: "Quicksand", sans-serif;
-        --font2: font-family: "BBH Bogle", sans-serif;
+        --fonte1: "Quicksand", sans-serif;
+        --font2: "BBH Bogle", sans-serif;
 
     }
 
+    /* RESET E GLOBAIS */
     * {
         padding: 0px;
         margin: 0px;
         font-family: "Quicksand", sans-serif;
-        ;
     }
 
+    h1,
+    h2,
+    h3,
+    legend {
+    h1, h2, h3, legend {
+        font-family: var(--font2);
+    }
+
+    main {
+        background-color: white;
+    }
+
+    /* --- HEADER --- */
     header {
         background-color: var(--corvermelha);
         display: flex;
@@ -48,6 +61,10 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         /* Manda tudo para a ESQUERDA da tela */
         gap: 15px;
         /* Dá um espaço de 15px entre a logo e o texto */
+        flex-direction: row; /* Coloca um ao lado do outro */
+        align-items: center; /* Centraliza verticalmente */
+        justify-content: flex-start; /* Manda tudo para a ESQUERDA */
+        gap: 15px; /* Espaço entre logo e texto */
         padding: 10px;
         color: var(--corbranca);
         padding-bottom: 1px;
@@ -84,6 +101,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     .logo img {
         /* Define o tamanho desejado */
         height: 120px;
+        height: 120px; /* Define o tamanho desejado */
         width: auto;
 
         margin: 0;
@@ -106,6 +124,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     /*area que tira alguns itens*/
     #celular-frase-principal {
         display: none;
+        display: none; /*area que tira alguns itens*/
     }
 
     .frase-principal {
@@ -118,14 +137,21 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     .container2 {
         width: 100%;
+    /* --- NAVEGAÇÃO (NAV) --- */
+    nav {
+        color: white;
+        background-color: var(--cormostarda);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: justify; /* Centraliza os botões */
     }
 
     .container3 {
-       
+
 
 
         padding: 0px;
-        
+
 
         display: flex;
         flex-direction: column;
@@ -133,14 +159,14 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     }
 
-    .container-titulo-diferencial{
-        
-        padding-top: 17px ;
+    .container-titulo-diferencial {
+
+        padding-top: 17px;
         padding-bottom: 15px;
         font-size: 20px;
-       
-        
-        
+
+
+
 
         display: flex;
         flex: row wrap;
@@ -148,13 +174,15 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     }
 
-   
-    .titulo-diferencial{
-        color: var(--cormarrom);
+
+    .titulo-diferencial {
+        color: var(--corvermelha);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+
         font-family: var(--font2);
 
-        
-        flex-grow: 0 ;
+
+        flex-grow: 0;
         flex-shrink: 0;
 
     }
@@ -171,6 +199,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     .menu1,
     .menu2,
     .menu3 {
+    .menu1, .menu2, .menu3 {
         background-color: rgba(0, 0, 0, 0.1);
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         color: rgb(255, 255, 255);
@@ -205,18 +234,46 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     }
 
     .container3 {
-        width: 100%;
-    }
-
-    main {
-        background-color: #b8580a70;
-    }
-
+    /* --- CONTEÚDO PRINCIPAL --- */
     .video {
         display: flex;
         flex-direction: row;
         background-color: #B80007;
         width: 100%;
+    }
+
+    main {
+        background-color: white;
+    .container2 {
+        width: 100%;
+    }
+
+    .video {
+    .container3 {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        background-color: #B80007;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .container-titulo-diferencial {
+        padding-top: 17px;
+        padding-bottom: 15px;
+        font-size: 20px;
+        display: flex;
+        flex: row wrap;
+        justify-content: space-evenly;
+    }
+
+    .titulo-diferencial {
+        color: var(--corvermelha);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+        font-family: var(--font2);
+        flex-grow: 0;
+        flex-shrink: 0;
     }
 
     .conteiner-img-r {
