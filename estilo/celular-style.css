@@ -64,7 +64,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         display: flex;
         flex-direction: column;
         width: 100%;
-        
+
 
 
     }
@@ -100,12 +100,13 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     }
 
-     /*area que tira alguns itens*/
-    #celular-frase-principal
-    {display: none;}
+    /*area que tira alguns itens*/
+    #celular-frase-principal {
+        display: none;
+    }
 
     .frase-principal {
-        
+
         text-align: center;
         padding: 10px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
@@ -114,6 +115,17 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     .container2 {
         width: 100%;
+    }
+
+    .container3 {
+        background-color: aqua;
+
+
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+
     }
 
     .menu {
@@ -125,9 +137,11 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
 
     }
 
-    .menu1, .menu2, .menu3{
+    .menu1,
+    .menu2,
+    .menu3 {
         background-color: rgba(0, 0, 0, 0.1);
-        text-shadow:1px 1px 2px rgba(0, 0, 0, 0.5);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         color: rgb(255, 255, 255);
         text-decoration: none;
         font-size: 15px;
@@ -135,7 +149,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         border: 1px solid white;
         padding: 10px 10px;
         border-radius: 10px;
-        
+
 
     }
 
@@ -145,14 +159,14 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         background-color: var(--cormostarda);
         padding-top: 10px;
         padding-bottom: 10px;
-    
+
         text-align: justify;
         /* Centraliza os botões */
 
-        
+
     }
 
-    
+
     nav a:active {
         background-color: var(--corvermelha);
         border-color: var(--corvermelha);
@@ -163,7 +177,7 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         width: 100%;
     }
 
-    main{
+    main {
         background-color: #b8580a70;
     }
 
@@ -171,9 +185,26 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         display: flex;
         flex-direction: row;
         background-color: #B80007;
+        width: 100%;
     }
 
-    .video 
+    .conteiner-img-r {
+        display: none;
+    }
 
+    .conteiner-img-p {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
 
+    .img-p-diferencial {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .img-p-diferencial img {
+        width: 100%;
+        height: auto;
+    }
 }
