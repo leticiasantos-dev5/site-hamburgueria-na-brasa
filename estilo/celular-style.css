@@ -162,13 +162,20 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     }
 
     .conteiner-video{
-        height: 200px;
+        
+        height: 300px;
         border: 3px solid black;
         padding: 10px;
+        padding-top: 20px;
 
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+;
+        
        
 
 
@@ -178,10 +185,14 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     .video{
         
        
-        border: 3px solid black;
+       
        height: auto;
-       width: 300px;
-       height: 295px;
+        width: 95%;
+        max-width: 698px;
+       
+
+       flex: auto;
+       align-self: center;
        
        
 
