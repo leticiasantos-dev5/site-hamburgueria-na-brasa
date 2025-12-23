@@ -166,7 +166,8 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         height: 300px;
         border: 3px solid black;
         padding: 10px;
-        padding-top: 20px;
+        padding-top: 0px;
+        
 
         display: flex;
         flex-direction: column;
@@ -187,8 +188,9 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
        
        
        height: auto;
-        width: 95%;
+        width: 98%;
         max-width: 698px;
+        
        
 
        flex: auto;
