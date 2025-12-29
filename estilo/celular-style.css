@@ -165,9 +165,12 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     .conteiner-video{
         
         height: auto;
-        border: 3px solid black;
-        padding: 10px;
-        padding-top: 0px;
+        
+        padding: 13px;
+        padding-top: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
         
 
         display: flex;
