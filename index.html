@@ -23,7 +23,7 @@
 
 <body>
 
-    <header class="container1"> <!--Cabeçario-->
+    <header class="container1" id="inicio"> <!--Cabeçario / DESTINO DO DESLIZE: INÍCIO (id="inicio")-->
 
         <div class="header">
             <div class="logo">
@@ -46,9 +46,10 @@
 
     <nav class="container2"><!--Menu-->
         <div class="menu">
-            <a class="menu1" href="#">Início </a>
-            <a class="menu2" href="#">Cardápio e Pedidos</a>
-            <a class="menu3" href="#">Contato</a>
+            <!-- GATILHOS DO DESLIZE: O href="#..." deve ser igual ao id="..." do destino -->
+            <a class="menu1" href="#inicio">Início </a>
+            <a class="menu2" href="#pedidos">Cardápio e Pedidos</a>
+            <a class="menu3" href="#contato">Contato</a>
         </div>
     </nav>
 
@@ -123,7 +124,7 @@
                         <!-- Card de Depoimento 1 -->
                         <div class="card-depoimento">
                             <div class="foto-cliente">
-                                <img src="foto/icone.png" alt="">
+                                <img src="foto/foto1.png" alt="">
                             </div>
                             <p>"Melhor burger da cidade! O gosto de defumado na carne faz toda a diferença. Chegou
                                 quentinho."</p>
@@ -133,7 +134,7 @@
                         <!-- Card de Depoimento 2 -->
                         <div class="card-depoimento">
                             <div class="foto-cliente">
-                                <img src="foto/icone.png" alt="">
+                                <img src="foto/foto2.png" alt="">
                             </div>
                             <p>"A maionese verde deles é tão boa. O ponto da carne veio perfeito,
                                 vermelhinho no meio."</p>
@@ -143,7 +144,7 @@
                         <!-- Card de Depoimento 3 (Adicional) -->
                         <div class="card-depoimento">
                             <div class="foto-cliente">
-                                <img src="foto/icone.png" alt="">
+                                <img src="foto/foto3.png" alt="">
                             </div>
                             <p>"Finalmente um lugar que sabe o que é um hambúrguer de verdade. O pão é macio e a carne
                                 suculenta. Virei fã!"</p>
@@ -153,7 +154,7 @@
                         <!-- Card de Depoimento 4 (Adicional) -->
                         <div class="card-depoimento">
                             <div class="foto-cliente">
-                                <img src="foto/icone.png" alt="">
+                                <img src="foto/foto4.png" alt="">
                             </div>
                             <p>"Pedi o Veggie Grill e me surpreendi. Sabor de churrasco de verdade, mesmo sem carne.
                                 Incrível!"</p>
@@ -163,26 +164,25 @@
                 </section>
                 <!-- FIM DA SEÇÃO DE DEPOIMENTOS -->
 
-                <div class="texto-pedidio">
-                    <h2>Bateu a fome de verdade?</h2>
-                    <p>A grelha já está quente esperando seu pedido.</p>
-                    <div>
-                        <button class="pedido">Pedido</button>
+                <div class="conteiner-texto-pedidio" id="pedidos"> <!-- DESTINO DO DESLIZE: PEDIDOS (id="pedidos") -->
+                    <h2 class="titulo-pedidio">Bateu a fome de verdade?</h2>
+                    <p class="texto-pedido">A grelha já está quente esperando seu pedido.</p>
+                    <div class="botao-pedido">
+                        <button class="pedido-item">Pedido</button>
                     </div>
+                </div>
 
-                    <footer class="footer-texto">
-                        <p>Na Brasa Burger - O Verdadeiro Churrasco.</p>
-
-                        <ul class="footer-links">
-                            <li>Instagram <a href="#">@nabrasaburger</a></li>
-
-                            <li>Fale Conosco no <a href="#">WhatsApp</a></li>
-
-                            <li><a href="#">Cardápio</a></li>
-                        </ul>
-
-                        <p>© 2025 Na Brasa Burger. Feito com fogo e código.</p>
-                    </footer>
+                    <div class="footer" id="contato"> <!-- DESTINO DO DESLIZE: CONTATO (id="contato") -->
+                        <footer class="footer-texto">
+                            <p>Na Brasa Burger - O Verdadeiro Churrasco.</p>
+                            <ul class="footer-links">
+                                <li>Instagram <a href="#">@nabrasaburger</a></li>
+                                <li>Fale Conosco no <a href="#">WhatsApp</a></li>
+                                <li><a href="#">Cardápio</a></li>
+                            </ul>
+                            <p>© 2025 Na Brasa Burger. Feito com fogo e brasa quente.</p>
+                        </footer>
+                    </div>
                 </div>
 
 
