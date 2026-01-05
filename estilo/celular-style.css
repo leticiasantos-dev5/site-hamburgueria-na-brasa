@@ -125,6 +125,9 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         justify-content: center;
         align-content: space-around;
         gap: 50px;
+        padding-left: 20px;
+        padding-right: 20px
+        
     }
 
     .menu1,
@@ -137,8 +140,11 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         font-size: 15px;
         display: inline-block;
         border: 1px solid white;
-        padding: 10px 10px;
+        padding: 10px 10px ;
         border-radius: 10px;
+        text-align: center;
+        flex-shrink: 1;
+        flex-grow: 1;
     }
 
     nav a:active {
@@ -275,6 +281,8 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
     }
 
     .conteiner-img-p {
+        
+        border-radius: 20px;
         display: flex;
         justify-content: center;
         padding: 20px;
@@ -295,5 +303,106 @@ CELULAR (SMARTPHONES EM GERAL): DE 600PX ATÉ 768PX*/
         width: 100%;
         height: auto;
 
+    }
+
+    .conteiner-lista {
+        padding: 20px;
+        height: auto;
+        width: 100%;
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        
+
+        /*display: flex;
+        justify-content: center;
+        padding: 20px;
+        padding-top: 37px;
+        padding-bottom: 32px;*/
+    }
+
+    .lista-item {
+        background-color: #ffc401;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 30px;
+        text-align: center;
+
+        min-height: 100px;
+        width: auto;
+       
+        align-content: space-evenly;
+        flex-basis: 150px;
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+
+    .lista-item li {
+        list-style-type: none;
+    }
+
+    .depoimentos-container{
+        
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card-depoimento{
+        border: 3px solid var(--corvermelha);
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .foto-cliente > img{
+         border: 4px solid var(--corvermelha);
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .foto-cliente {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    .titulo-depoimento{
+        
+
+        text-align: center ;
+        padding-top: 17px;
+        padding-bottom: 15px;
+        font-size: 25px;
+        display: flex;
+        flex: row wrap;
+        justify-content: space-evenly;
+        color: var(--corzinza);
+        text-shadow: 1px 2px 2px rgba(79, 79, 79, 0.6);
+        font-family: var(--font2);
+        flex-grow: 0;
+        flex-shrink: 0;
     }
 }

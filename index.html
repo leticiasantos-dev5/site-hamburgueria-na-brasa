@@ -93,12 +93,20 @@
                     </div>
                 </div>
 
-                <ul class="lista"> <!-- Era div, virou ul -->
-                    <li class="defumado"> 🔥 Defumado Real: O sabor que só o carvão dá.</li>
-                    <li>🥩 Carne Fresca: Zero congelados. Moída no dia.
-                    </li>
-                    <li>🍺 Ambiente Rústico: Feito para quem gosta de comer bem.</li>
-                </ul>
+                <div class="conteiner-lista"> <!-- Era div, virou ul -->
+                    
+                        <div class="lista-item">
+                            <li> 🔥 Defumado Real: O sabor que só o carvão dá.</li>
+                        </div>
+                        <div class="lista-item">
+                            <li>🥩 Carne Fresca: Zero congelados. Moída no dia. </li>
+                        </div>
+                        
+                        <div class="lista-item">
+                            <li>🍺 Ambiente Rústico: Feito para quem gosta de comer bem.</li>
+                        </div>
+                   
+                </div>
 
 
                 <!-- ================================================== -->
@@ -106,7 +114,7 @@
                 <!-- Usamos uma <section> para agrupar todo o conteúdo relacionado aos depoimentos. -->
                 <section class="secao-depoimentos"> <!-- Título principal da seção -->
 
-                    <h2>Quem Prova, Não Larga.</h2>
+                    <h2 class="titulo-depoimento">Quem Prova, Não Larga.</h2>
 
                     <!-- Este é o container principal que vai segurar todos os cards de depoimento. -->
                     <!-- Ajuda a organizar e alinhar os depoimentos, especialmente com Flexbox ou Grid no CSS. -->
@@ -115,7 +123,7 @@
                         <!-- Card de Depoimento 1 -->
                         <div class="card-depoimento">
                             <div class="foto-cliente">
-                                <img src="foto/icone.png" alt="Foto do cliente Marcos S.">
+                                <img src="foto/icone.png" alt="">
                             </div>
                             <p>"Melhor burger da cidade! O gosto de defumado na carne faz toda a diferença. Chegou
                                 quentinho."</p>
@@ -124,8 +132,10 @@
 
                         <!-- Card de Depoimento 2 -->
                         <div class="card-depoimento">
-                            <div class="foto-cliente"></div>
-                            <p>"A maionese verde deles é criminosa de tão boa. O ponto da carne veio perfeito,
+                            <div class="foto-cliente">
+                                <img src="foto/icone.png" alt="">
+                            </div>
+                            <p>"A maionese verde deles é tão boa. O ponto da carne veio perfeito,
                                 vermelhinho no meio."</p>
                             <cite>Ana Paula R.</cite>
                         </div>
