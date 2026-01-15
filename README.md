@@ -1,5 +1,3 @@
-# site_hamburgueria_na_brasa
-🍔 Site Responsivo: Hamburgueria Na Brasa | HTML5 & CSS3 💻 | Foco em Mobile First, Formulários e Iframes 🔥
 # 🍔 Na Brasa Burger - Hamburgueria Responsiva
 
 Este é um projeto de uma hamburgueria fictícia que desenvolvi para colocar em prática meus conhecimentos de **HTML5** e **CSS3**. O objetivo principal foi criar uma interface moderna, atraente e totalmente adaptável para qualquer dispositivo.
@@ -15,10 +13,15 @@ O desafio que me propus foi aplicar de forma independente os conceitos de **resp
 
 ### Visual no Desktop
 
-(<img width="1898" height="863" alt="img1&#39;" src="https://github.com/user-attachments/assets/c810c166-4998-4969-94a7-f4a7151d77cd" />)
+img width="1898" height="863" alt="img1&#39;" src="https://github.com/user-attachments/assets/c810c166-4998-4969-94a7-f4a7151d77cd" />
+
+### Visual no Tablet
+<img width="1323" height="864" alt="img3" src="https://github.com/user-attachments/assets/91ee6594-a1d0-44e7-8332-0cdaa6b40757" />
+
 
 ### Visual no Celular
-![Adicionar Imagem do Celular Aqui](caminho-da-sua-foto-mobile.png)
+<img width="599" height="868" alt="img2" src="https://github.com/user-attachments/assets/0cf50867-9fac-4d4c-a777-5a2fcdd940cd" />
+
 
 ---
 
