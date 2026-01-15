@@ -13,7 +13,8 @@ O desafio que me propus foi aplicar de forma independente os conceitos de **resp
 
 ### Visual no Desktop
 
-img width="1898" height="863" alt="img1&#39;" src="https://github.com/user-attachments/assets/c810c166-4998-4969-94a7-f4a7151d77cd" />
+<img width="1898" height="863" alt="img1&#39;" src="https://github.com/user-attachments/assets/31ed241f-ed70-48f9-bb2e-8fcf62612e09" />
+
 
 ### Visual no Tablet
 <img width="1323" height="864" alt="img3" src="https://github.com/user-attachments/assets/91ee6594-a1d0-44e7-8332-0cdaa6b40757" />
